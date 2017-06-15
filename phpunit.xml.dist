@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         bootstrap="vendor/autoload.php"
+         strict="true"
+         colors="true"
+         verbose="true">
+    <testsuites>
+        <testsuite name="Example CMS Connector Test Suite">
+            <directory suffix="Test.php">WiseWeb/*Bundle/Tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
