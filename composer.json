@@ -1,5 +1,5 @@
 {
-    "name": "wiseweb/social-engine-adapter-bundle",
+    "name": "wiseweb/cms-connector-bundle",
     "license": "proprietary",
     "description": "Example of the CMS connector bundle.",
     "type": "symfony-bundle",

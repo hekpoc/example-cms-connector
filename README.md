@@ -6,7 +6,7 @@ Require the bundle in your composer.json file:
 ```json
 {
     "require": {
-        "wiseweb/social-engine-adapter-bundle": "~1.0"
+        "wiseweb/cms-connector-bundle": "~1.0"
     }
 }
 ```    
@@ -19,15 +19,8 @@ public function registerBundles()
     {
         $bundles = [
             ...
-            new WiseWeb\SocialEngineAdapterBundle\WiseWebSocialEngineAdapterBundle()
+            new WiseWeb\CmsConnectorBundle\WiseWebCmsConnectorBundle()
             ...
         ];
     }
-```
-
-Usage
-------
-
-``` php
-$response = $this->container->get('wiseweb_posting.social_engine.adapter')->processRequest($request);
 ```
